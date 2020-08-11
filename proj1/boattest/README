@@ -1,0 +1,29 @@
+HOW TO USE:
+  - Make sure you have already run "make" from the "proj1" directory.
+  - Run "bash runtests.sh" from the "boattest" directory.
+  - The output will indicate success or failure, but you can look for more
+    detail in the "testinglogs" directory.
+
+COMPATIBILITY:
+  - runtests.sh was only tested with bash.
+  - It requires Python (2 or 3) and Vim.
+
+WHAT IT DOES:
+    This script makes copies of Boat.java and ThreadedKernel.java and changes
+their selfTest methods for testing, then compiles those files and replaces the
+existing .class files. The original .java files are not modified.
+
+It tests multiple boat simulations with different numbers of adults and
+children. For each configuration, it runs a simulation, and tests the result
+for correctness (as specified in our design doc) using boattest.py. Results
+are saved in the "simlogs" and "testlogs" directories.
+
+EXAMPLES:
+    To see how boattest.py works, look at each of the files in the "examples"
+directory and run "python3 boattest.py [FILENAME]" on them.
+
+CLEANUP:
+  - The original source files are not modified, so running "make" again
+    restores prior behavior.
+  - Log files and temporary files made by runtests.sh can be cleaned up using
+    clean.sh.

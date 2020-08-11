@@ -1,0 +1,6 @@
+This example log should succeed.
+Note that extra non-Boat-related lines are okay; they'll just be ignored.
+
+ ***Testing Boats with only 2 children***
+**Child rowing to Molokai.
+**Child arrived on Molokai as a passenger.

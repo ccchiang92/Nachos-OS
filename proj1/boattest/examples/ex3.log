@@ -1,0 +1,25 @@
+This example should fail, and no dinosaur will appear.
+
+ ***Testing Boats with 2 children, 2 adults***
+**Adult rowing to Molokai.
+**Child rowing to Oahu.
+
+More log data could go here, but it won't be examined because testing stops
+upon finding one failure.
+
+The testing script won't even read any lines after the first failure, so none of this stuff appears in the "ignored lines" output.
+
+                                 .       .
+                                / `.   .' \
+                        .---.  <    > <    >  .---.
+                        |    \  \ - ~ ~ - /  /    |
+                         ~-..-~             ~-..-~
+                     \~~~\.'                    `./~~~/
+           .-~~^-.    \__/                        \__/
+         .'  O    \     /               /       \  \
+        (_____,    `._.'               |         }  \/~~~/
+         `----.          /       }     |        /    \__/
+               `-.      |       /      |       /      `. ,~~|
+                   ~-.__|      /_ - ~ ^|      /- _      `..-'   f: f:
+                        |     /        |     /     ~-.     `-. _||_||_
+                        |_____|        |_____|         ~ - . _ _ _ _ _>
